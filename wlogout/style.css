@@ -1,0 +1,55 @@
+/*█▀ ▀█▀ █▄█ █   █▀▀
+  ▄█  █   █  █▄▄ ██▄*/
+
+/* See https://github.com/catppuccin/wlogout */
+
+
+* {
+	background-image: none;
+	box-shadow: none;
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  color: #cba6f7;
+}
+
+window {
+	background-color: rgba(30, 30, 46, 0.90);
+}
+
+button {
+	border-radius: 0;
+	border-color: #cba6f7;
+	color: #cdd6f4;
+	background-color: #181825;
+	border-style: solid;
+	border-width: 1px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+}
+
+button:focus, button:active, button:hover {
+	/* 20% Overlay 2, 80% mantle */
+	background-color: rgb(48, 50, 66);
+	outline-style: none;
+}
+
+/* Icons */
+
+#lock {
+    background-image: url("./icons/mauve/lock.svg");
+}
+
+#logout {
+    background-image: url("./icons/mauve/logout.svg");
+}
+
+#shutdown {
+    background-image: url("./icons/mauve/shutdown.svg");
+}
+
+#reboot {
+    background-image: url("./icons/mauve/reboot.svg");
+}
